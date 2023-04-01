@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.searchBox form {
+	 max-width: 350px;
+}
+ .searchBox form input {
+	 border: 2px solid #2ba8c3;
+	 border-top-left-radius: 5px !important;
+	 border-bottom-left-radius: 5px !important;
+}
+ .searchBox form button {
+	 border-top-right-radius: 5px !important;
+	 border-bottom-right-radius: 5px !important;
+}
+ .searchBox form input:focus, .searchBox form button:focus {
+	 outline: none;
+	 box-shadow: unset;
+}
+
+.celebrityDetails {
+	 width: calc((100% / 3) - 15px);
+	 border: 3px solid #2ba8c3;
+	 border-radius: 10px;
+	 box-shadow: 3px 3px 5px #2ba8c3;
+}
+ .celebrityDetails p {
+	 margin-bottom: 15px;
+}
+ .celebrityDetails p:last-child {
+	 margin-bottom: 0;
+}
+
+.noDataFound {
+    max-width: 350px;
+}
